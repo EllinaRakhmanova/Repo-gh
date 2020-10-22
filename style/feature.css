@@ -1,0 +1,110 @@
+.feature {
+  height: 529px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 113px;
+}
+
+.feature-slider {
+  width: 767px;
+  height: 529px;
+  position: relative;
+}
+
+.feature-slider .feature-slider__img {
+  width: 100%;
+  height: 529px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.feature-slider .feature-slider__content {
+  min-width: 293px;
+  height: 78px;
+  position: absolute;
+  top: 146px;
+  left: 39px;
+}
+
+.feature-slider .feature-slider__content .feature-slider__title {
+  font-size: 53.7px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+}
+
+.feature-slider .feature-slider__content .feature-slider__title span {
+  color: #f16d7f;
+}
+
+.feature-slider .feature-slider__content .feature-slider__text {
+  font-size: 32.2px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+}
+
+.feature-box {
+  width: 373px;
+  height: 529px;
+  background-color: #1a1e28;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.feature-box .feature-blok {
+  width: 100%;
+  height: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.feature-box .feature-blok:nth-child(1) .feature-blok__img {
+  width: 45px;
+  height: 32px;
+}
+
+.feature-box .feature-blok:nth-child(2) .feature-blok__img {
+  width: 40px;
+  height: 40px;
+}
+
+.feature-box .feature-blok:nth-child(3) .feature-blok__img {
+  width: 47px;
+  height: 35px;
+}
+
+.feature-box .feature-blok .feature-blok__content {
+  width: 219px;
+}
+
+.feature-box .feature-blok .feature-blok__content .feature-blok__title {
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #fbfbfb;
+}
+
+.feature-box .feature-blok .feature-blok__content .feature-blok__text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #fbfbfb;
+}
+/*# sourceMappingURL=feature.css.map */
