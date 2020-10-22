@@ -1,0 +1,30 @@
+.top-nav {
+	min-height: 51px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.top-nav > .menu-list {
+	height: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+	padding-top: 17px;
+}
+
+.top-nav > .menu-list .menu-link {
+	text-transform: uppercase;	
+}
+
+.top-nav > .menu-list .menu-link:hover {
+	border-bottom: 1px solid #212121;	
+}
+
+.top-nav > .menu-list .menu-item {
+	margin-right: 48px;
+}
+
+.top-nav > .menu-list .menu-item:last-child {
+	margin-right: 0;
+}

@@ -1,0 +1,46 @@
+.slider {
+	min-height: 614px;
+	background-color: #e8e8e8;
+}
+
+.slider-brand {
+	min-height: 614px;
+	background-image: url(../img/slider_1.jpg);
+	background-repeat: no-repeat;
+    background-position: 100% 0%;
+    
+        &__content {
+        min-height: 614px;
+        display: flex;
+        align-items: center;
+    }
+
+        &__title {
+        width: 500px;
+        height: 93px;
+        text-transform: uppercase;
+        border-left: 12px solid #f16d7f;
+    }
+
+        &__name {
+        font-size: 60px;
+        line-height: 0.7;
+        font-weight: 900;
+        letter-spacing: 0.025em;
+        padding-left: 12px;
+    }
+
+        &__text {
+        font-size: 40px;
+        line-height: 0.8;
+        font-weight: 900;
+        letter-spacing: 0.024em;
+        padding-top: 18px;
+        padding-left: 12px;
+    }
+}
+
+.slider-brand__text span {
+	font-size: 40px;
+	color: #f16d7f;
+}

@@ -50,8 +50,8 @@
     height: 529px;
     background-color: #1a1e28;
     display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
+    flex-direction: column;
+    justify-content: space-around;
 
     .feature-blok {
         width: 100%;

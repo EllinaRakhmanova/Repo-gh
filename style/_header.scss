@@ -1,0 +1,153 @@
+.header {
+	display: flex;
+	min-height: 100px;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+    align-items: center;
+    
+        &__name {
+        text-transform: uppercase;
+        font-size: 27px;
+        line-height: 32px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0.025em;
+        margin-left: 13px;
+    }
+
+        &__name span {
+        font-weight: 900;
+        color: #f16d7f;
+    }
+
+}
+
+.header > * {
+	height: inherit;
+	display: flex;
+	align-content: center;
+}
+
+.search {
+	border: 1px solid #e6e6e6;
+	border-radius: 3px;
+	overflow: hidden;
+	height: 38px;
+	margin-left: 37px;
+} 
+.search__browse {
+	text-align: center;
+	width: 87px;
+	height: 38px;
+	background-color: #cdcdcc;
+	background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%);
+	border-radius: 3px 0px 0px 3px;
+	font-family: Lato;
+	font-size: 14px;
+	line-height: 32px;
+	font-weight: 300;
+	letter-spacing: 0.025em;
+	color: #222222;
+	padding-top: 4px;
+}
+
+.search__browse:hover {
+	cursor: pointer;
+	background-image: none;
+}
+
+.search__fa-caret-down {
+	font-family: FontAwesome;
+	font-size: 14px;
+	line-height: 32px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #838383;
+}
+
+.search__input {
+	height: inherit;
+	outline: none;
+	overflow: hidden;
+	border: none;
+	width: 266px;
+	height: 38px;
+	background-color: #ffffff;
+	border-right: 1px solid #e6e6e6;
+	border-left: 1px solid #e6e6e6;
+	border-radius: 0px 3px 3px 0px;
+	font-family: Lato;
+	font-size: 14px;
+	line-height: 32px;
+	font-weight: 300;
+	letter-spacing: 0.025em;
+	padding-left: 15px;
+}
+
+.search__button {
+	outline: none;
+	overflow: hidden;
+	border: none;
+	background-color: #FFFFFF;
+	width: 36px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.search__button:hover {
+	background-color: #cdcdcc;
+}
+
+.fa-search {
+	font-family: FontAwesome;
+	font-size: 14px;
+	line-height: 32px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #a4a4a4;
+}
+
+.cart {
+	margin-left: 349px;
+	width: 32px;
+	height: 29px;
+	color: #222222;
+}
+
+.my-account {
+	width: 130px;
+	height: 38px;
+	background-color: #f16d7f;
+	margin-left: 26px;
+}
+
+.my-account:hover {
+	background-color: #cdcdcc;
+}
+
+.my-account a {
+	font-family: Lato;
+	font-size: 15px;
+	line-height: 32px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #ffffff;
+	padding-top: 4px;
+    padding-left: 18px;
+}
+
+.my-account__fa-caret-down {
+	font-family: FontAwesome;
+	font-size: 14px;
+	line-height: 32px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #ffffff;
+}
+
+.header-line {
+	border-bottom: 1px solid #ececec;
+}
