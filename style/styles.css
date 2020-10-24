@@ -492,6 +492,8 @@ body .container {
 }
 
 .feature-slider {
+  background-image: url(../img/slider_6.png);
+  background-repeat: no-repeat;
   width: 767px;
   height: 529px;
   position: relative;
@@ -593,5 +595,118 @@ body .container {
   font-weight: 300;
   letter-spacing: 0.025em;
   color: #fbfbfb;
+}
+
+.subscribe-slider {
+  min-height: 438px;
+  background-image: url(../img/slider_8.png);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  margin-top: 97px;
+}
+
+.subscribe-box {
+  min-height: 438px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.quotation {
+  min-height: 438px;
+  width: 570px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.quotation__img {
+  width: 83px;
+  height: 83px;
+  padding-top: 111px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.quotation__text {
+  width: 386px;
+  padding-top: 123px;
+  padding-left: 28px;
+}
+
+.quotation__italics {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.025em;
+  color: #222224;
+}
+
+.quotation__name {
+  padding-top: 12px;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 300;
+  color: #222224;
+}
+
+.quotation__name span {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #f16d7f;
+}
+
+.quotation__pages {
+  padding-top: 37px;
+}
+
+.quotation__pages .quotation__page {
+  height: 5px;
+  width: 38px;
+  display: inline-block;
+  background-color: #d6d6d6;
+  margin-right: 13px;
+}
+
+.quotation__pages .quotation__active {
+  height: 5px;
+  width: 38px;
+  display: inline-block;
+  background-color: #f16d7f;
+  margin-right: 13px;
+}
+
+.subscribtion {
+  min-height: 438px;
+  width: 570px;
+  border-left: 2px solid white;
+  text-align: center;
+}
+
+.subscribtion__text {
+  padding-top: 125px;
+}
+
+.subscribtion__text h3 {
+  font-size: 24px;
+  line-height: 54px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #222224;
+}
+
+.subscribtion__text h4 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: none;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #222224;
 }
 /*# sourceMappingURL=styles.css.map */
