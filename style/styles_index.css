@@ -19,6 +19,10 @@ body .container {
   margin: 0 auto;
 }
 
+body li {
+  list-style-type: none;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -709,4 +713,232 @@ body .container {
   letter-spacing: 0.025em;
   color: #222224;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.subscribtion .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 46px;
+  padding-top: 35px;
+}
+
+.subscribtion .email input {
+  height: inherit;
+  width: 230px;
+  outline: none;
+  overflow: hidden;
+  border: none;
+  background-color: #e1e1e1;
+  border-radius: 23px 0px 0px 23px;
+  opacity: 0.67;
+  font-size: 14px;
+  line-height: 54px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  padding-left: 25px;
+}
+
+.subscribtion .email button {
+  height: inherit;
+  width: 104px;
+  background-color: #f16d7f;
+  border-radius: 0px 23px 23px 0px;
+  outline: none;
+  overflow: hidden;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+}
+
+.subscribtion .email button:hover {
+  background-color: #cdcdcc;
+}
+
+.footer {
+  padding-top: 129px;
+}
+
+.about-company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo-copy {
+  width: 500px;
+  padding-bottom: 85px;
+}
+
+.logo-copy p {
+  width: 427px;
+  min-height: 180px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #898989;
+  padding-top: 28px;
+}
+
+.structure {
+  width: 640px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.structure .company ul {
+  padding-top: 40px;
+}
+
+.structure .company h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #f16d7f;
+}
+
+.structure .company a {
+  font-size: 16px;
+  line-height: 35px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #898989;
+}
+
+.structure .information ul {
+  padding-top: 40px;
+}
+
+.structure .information h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #f16d7f;
+}
+
+.structure .information a {
+  font-size: 16px;
+  line-height: 35px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #898989;
+}
+
+.structure .shop-category ul {
+  padding-top: 40px;
+}
+
+.structure .shop-category h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #f16d7f;
+}
+
+.structure .shop-category a {
+  font-size: 16px;
+  line-height: 35px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #898989;
+}
+
+.company > .company-list .company-link:hover {
+  color: #222222;
+}
+
+.information > .information-list .information-link:hover {
+  color: #222222;
+}
+
+.shop-category > .shop-category-list .shop-category-link:hover {
+  color: #222222;
+}
+
+.copyright {
+  background-color: #e6e6e6;
+  height: 79px;
+}
+
+.copyright-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.copyright-box p {
+  padding-top: 33px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #7a7a7a;
+}
+
+.icons {
+  margin-left: auto;
+  padding-top: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.icons a {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  display: inline-block;
+  margin-right: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icons a:last-child {
+  margin-right: 0;
+}
+
+.icons a:hover {
+  background-color: #cdcdcc;
+}
+
+.icons a:active {
+  background-color: #f16d7f;
+}
+
+.icons i {
+  color: #b2b2b2;
+}
+
+.icons i:hover {
+  color: #222222;
+}
+
+.icons i:active {
+  color: #f7f7f8;
+}
+/*# sourceMappingURL=styles_index.css.map */

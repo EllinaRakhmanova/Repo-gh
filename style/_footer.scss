@@ -1,0 +1,170 @@
+.footer {
+    padding-top: 129px;
+}
+
+.about-company {
+    display: flex;
+}
+
+.logo-copy {
+    width: 500px;
+    padding-bottom: 85px;
+
+    p {
+        width: 427px;
+        min-height: 180px;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        letter-spacing: 0.025em;
+        color: #898989;
+        padding-top: 28px;
+    }
+}
+
+.structure {
+    width: 640px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .company {
+
+        ul {
+            padding-top: 40px;
+        }
+
+        h3 {
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 700;
+            letter-spacing: 0.025em;
+            color: #f16d7f;
+        }
+
+        a {
+            font-size: 16px;
+            line-height: 35px;
+            font-weight: 400;
+            letter-spacing: 0.025em;
+            color: #898989;
+        }
+    }
+
+    .information {
+
+        ul {
+            padding-top: 40px;
+        }
+
+        h3 {
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 700;
+            letter-spacing: 0.025em;
+            color: #f16d7f;
+        }
+
+        a {
+            font-size: 16px;
+            line-height: 35px;
+            font-weight: 400;
+            letter-spacing: 0.025em;
+            color: #898989;
+        }
+    }
+
+    .shop-category {
+
+        ul {
+            padding-top: 40px;
+        }
+
+        h3 {
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 700;
+            letter-spacing: 0.025em;
+            color: #f16d7f;
+        }
+
+        a {
+            font-size: 16px;
+            line-height: 35px;
+            font-weight: 400;
+            letter-spacing: 0.025em;
+            color: #898989;
+        }
+    }
+}
+
+.company > .company-list .company-link:hover {
+    color: #222222;
+}
+
+.information > .information-list .information-link:hover {
+    color: #222222;
+}
+
+.shop-category > .shop-category-list .shop-category-link:hover {
+    color: #222222;
+} 
+
+.copyright {
+    background-color: #e6e6e6;
+    height: 79px;
+}
+
+.copyright-box {
+    display: flex;
+
+    p {
+        padding-top: 33px;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.025em;
+        color: #7a7a7a;
+    }
+}
+
+.icons {
+    margin-left: auto;
+    padding-top: 23px;
+    display: flex;
+    flex-direction: row;
+
+    a {
+        width: 32px;
+        height: 32px;
+        background-color: #ffffff;
+        display: inline-block;
+        margin-right: 8px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:hover {
+            background-color: #cdcdcc;
+        }
+
+        &:active {
+            background-color: #f16d7f;
+        }
+    }
+
+    i {
+        color: #b2b2b2;
+
+        &:hover {
+            color: #222222;
+        }
+
+        &:active {
+            color: #f7f7f8;
+        }
+    }
+}
