@@ -147,24 +147,24 @@
             margin-right: 0;
         }
 
+        i {
+            color: #b2b2b2;
+        }
+
         &:hover {
             background-color: #cdcdcc;
+
+            i {
+                color: #222222;
+            }
         }
 
         &:active {
             background-color: #f16d7f;
-        }
-    }
 
-    i {
-        color: #b2b2b2;
-
-        &:hover {
-            color: #222222;
-        }
-
-        &:active {
-            color: #f7f7f8;
+            i {
+                color: #f7f7f8;
+            }
         }
     }
 }

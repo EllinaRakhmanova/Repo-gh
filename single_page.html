@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-	<title>Brand shopping</title>
-	<link rel="stylesheet" href="style/styles_shopping.css">
+	<title>Brand single page</title>
+	<link rel="stylesheet" href="style/styles_single_page.css">
 	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/6d87390322.js" crossorigin="anonymous"></script>
 </head>
@@ -38,99 +38,101 @@
             <h1 class="new-arrivals-slider__text">New Arrivals</h1>
             <nav class="new-arrivals-slider__nav">
                 <a href="#" class="new-arrivals-slider__link">Home /</a>
-                <a href="#" class="new-arrivals-slider__link">Men /</a>
+                <a href="#" class="new-arrivals-slider__link">Women /</a>
                 <a href="#" class="new-arrivals-slider__active"> New Arrivals</a> 
             </nav>
         </div>
 	</div>
-	<main class="shopping-cart container">
-		<div class="shopping-cart-information">
-			<h3>Product Details</h3>
-			<div class="details-title">
-				<h3>Unite Price</h3>
+	<div class="carousel">
+		<div class="next-arrow"><a href="#" class="next-arrow__link"><i class="fas fa-angle-left"></i></a></div>
+		<div class="carousel__img"><img src="img/slider_11.png" alt="slider-woman"></div>
+		<div class="next-arrow"><a href="#" class="next-arrow__link"><i class="fas fa-angle-right"></i></a></div>
+	</div>
+	<div class="description container">
+		<div class="description__content">
+			<h3>Women collection</h3>
+			<div class="description__pagination">
+				<a href="#" class="description__link"></a>
+				<a href="#" class="description__link-active"></a>
+				<a href="#" class="description__link"></a>
+			</div>
+			<h2>Moschino Cheap And Chic</h2>
+			<div class="description__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+			<p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.</p>
+			<div class="description__detailing">
+				<h3>Material: <span>cotton</span></h3>
+				<h3>designer: <span>binburhan</span></h3>
+			</div>
+			<div class="description__cost">$561</div>
+			<div class="description__line"></div>
+		</div>
+		<div class="description-block">
+			<div class="description-block__color">
+				<h3>Choose color</h3>
+				<form method="GET">
+					<select name="color" id="color">
+						<option value="black">Black</option>
+						<option value="white">White</option>
+						<option value="red">Red</option>
+					</select>
+				</form>
+			</div>
+			<div class="description-block__size">
+				<h3>Choose size</h3>
+				<form method="GET">
+					<select name="size" id="size">
+						<option value="s">S</option>
+						<option value="m">M</option>
+						<option value="l">L</option>
+						<option value="xl">XL</option>	
+					</select>
+				</form>
+			</div>
+			<div class="description-block__quantity">
 				<h3>Quantity</h3>
-				<h3>Shipping</h3>
-				<h3>Subtotal</h3>
-				<h3>Action</h3>
+				<form method="GET">
+					<select name="quantity" id="quantity">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>	
+					</select>
+				</form>
 			</div>
 		</div>
-		<div class="cart-line"></div>
-		<div class="product">
-			<div class="product-img">
-				<img src="img/product_9.png" alt="product">
-				<div class="product-img__text">
-					<h3>Mango  People  T-shirt</h3>
-					<p>Color: <span>Red</span><br>Size: <span>Xll</span></p>
+		<button class="description__button"><img src="img/cart_3.png" alt="cart"> Add to Cart</button>
+	</div>
+	<div class="may-like container">
+		<h1>You may like also</h1>
+		<div class="may-like__block">
+			<div class="may-like__product">
+				<div class="may-like__img"><img src="img/product_12.png" alt="product"></div>
+				<div class="may-like__text">
+					<h3>Blaze leggings</h3>
+					<p>$52.00</p>
 				</div>
 			</div>
-			<div class="details">
-				<div class="prise">$150</div>
-				<div class="quantity"><input type="number" id="quantity" name="quantity" pattern="^[ 0-9]+$"></div>
-				<div class="shipping">Free</div>
-				<div class="subtotal">$300</div>
-				<a href="#" class="action"><i class="fas fa-times-circle"></i></a>
-			</div>
-		</div>
-		<div class="cart-line"></div>
-		<div class="product">
-			<div class="product-img">
-				<img src="img/product_10.png" alt="product">
-				<div class="product-img__text">
-					<h3>Mango  People  T-shirt</h3>
-					<p>Color: <span>Red</span><br>Size: <span>Xll</span></p>
+			<div class="may-like__product">
+				<div class="may-like__img"><img src="img/product_13.png" alt="product"></div>
+				<div class="may-like__text">
+					<h3>Alexa sweater</h3>
+					<p>$52.00</p>
 				</div>
 			</div>
-			<div class="details">
-				<div class="prise">$150</div>
-				<div class="quantity"><input type="number" id="quantity" name="quantity" pattern="^[ 0-9]+$"></div>
-				<div class="shipping">Free</div>
-				<div class="subtotal">$300</div>
-				<a href="#" class="action"><i class="fas fa-times-circle"></i></a>
-			</div>
-		</div>
-		<div class="cart-line"></div>
-		<div class="product">
-			<div class="product-img">
-				<img src="img/product_11.png" alt="product">
-				<div class="product-img__text">
-					<h3>Mango  People  T-shirt</h3>
-					<p>Color: <span>Red</span><br>Size: <span>Xll</span></p>
+			<div class="may-like__product">
+				<div class="may-like__img"><img src="img/product_14.png" alt="product"></div>
+				<div class="may-like__text">
+					<h3>Agnes top</h3>
+					<p>$52.00</p>
 				</div>
 			</div>
-			<div class="details">
-				<div class="prise">$150</div>
-				<div class="quantity"><input type="number" id="quantity" name="quantity" pattern="^[ 0-9]+$"></div>
-				<div class="shipping">Free</div>
-				<div class="subtotal">$300</div>
-				<a href="#" class="action"><i class="fas fa-times-circle"></i></a>
+			<div class="may-like__product">
+				<div class="may-like__img"><img src="img/product_15.png" alt="product"></div>
+				<div class="may-like__text">
+					<h3>Sylva sweater</h3>
+					<p>$52.00</p>
+				</div>
 			</div>
-		</div>
-		<div class="cart-line"></div>
-		<div class="shopping-cart-button">
-			<button class="clear">Clear shopping cart</button>
-			<button class="continue">Continue shopping</button>
-		</div>
-	</main>
-	<div class="cart-forms container">
-		<form action="" method="get" class="shopping-adress">
-			<h2>Shopping Adress</h2>
-			<input type="text" id="country" name="country" class="shopping-adress__country" placeholder="Bangladesh" pattern="^[a-zA-Z]+$">
-			<input type="text" id="city" name="city" class="shopping-adress__city" placeholder="Dhaka" pattern="^[a-zA-Z]+$">
-			<input type="tel" id="postcode" name="postcode" class="shopping-adress__postcode" placeholder="178179" pattern="[0-9]{6}">
-			<input type="submit" value="get a quote" class="shopping-adress__submit">
-		</form>
-		<form action="" method="get" class="coupon-discount">
-			<h2>Coupon Discount</h2>
-			<label for="coupon">Enter your coupon code if you have one</label>
-			<input type="text" id="city" name="city" class="coupon-discount__city" placeholder="Dhaka" pattern="^[a-zA-Z]+$">
-			<input type="submit" class="coupon-discount__submit" value="apply coupon">
-		</form>
-		<div class="grand-total">
-			<div class="grand-total__text">
-				<p>Subtotal $900</p>
-				<h3>Grand total <span>$900</span></h3>
-			</div>
-			<button class="grand-total__button">Proceed to checkout</button>
 		</div>
 	</div>
 	<div class="subscribe-slider">
@@ -216,4 +218,3 @@
 		</div>
 	</div>
 </body>
-</html>

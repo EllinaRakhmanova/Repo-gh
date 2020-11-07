@@ -607,6 +607,14 @@ body li {
   background-repeat: no-repeat;
   background-position: 50% 100%;
   margin-top: 97px;
+  background-size: cover;
+}
+
+.subscribe-slider-bkg {
+  background-image: url(../img/slider_10.png);
+  width: 100%;
+  height: 438px;
+  position: absolute;
 }
 
 .subscribe-box {
@@ -614,6 +622,7 @@ body li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 .quotation {
@@ -922,23 +931,23 @@ body li {
   margin-right: 0;
 }
 
+.icons a i {
+  color: #b2b2b2;
+}
+
 .icons a:hover {
   background-color: #cdcdcc;
+}
+
+.icons a:hover i {
+  color: #222222;
 }
 
 .icons a:active {
   background-color: #f16d7f;
 }
 
-.icons i {
-  color: #b2b2b2;
-}
-
-.icons i:hover {
-  color: #222222;
-}
-
-.icons i:active {
+.icons a:active i {
   color: #f7f7f8;
 }
 /*# sourceMappingURL=styles_index.css.map */

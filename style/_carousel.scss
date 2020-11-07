@@ -1,0 +1,36 @@
+.carousel {
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    border: 1px solid #eaeaea;
+    min-height: 777px;
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -70px;
+    position: relative;
+    z-index: 1;
+
+    .next-arrow {
+        height: 47px;
+        width: 47px;
+        background-color: rgba(14, 12, 12, 0.14);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        i {
+            color: #ffffff;
+            font-size: 24px;
+        }
+
+        &:hover {
+            background-color: rgba(182, 126, 126, 0.678);
+
+            i {
+               color: #07090a; 
+            } 
+        }
+    }
+}
