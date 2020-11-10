@@ -72,15 +72,15 @@ body li {
   overflow: hidden;
   height: 38px;
   margin-left: 37px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .search__browse {
   text-align: center;
   width: 87px;
   height: 38px;
-  background-color: #cdcdcc;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#f5f5f5));
-  background-image: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
+  background-color: #f9f9f9;
   border-radius: 3px 0px 0px 3px;
   font-family: Lato;
   font-size: 14px;
@@ -89,11 +89,13 @@ body li {
   letter-spacing: 0.025em;
   color: #222222;
   padding-top: 4px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .search__browse:hover {
   cursor: pointer;
-  background-image: none;
+  background-color: #cdcdcc;
 }
 
 .search__fa-caret-down {
@@ -132,6 +134,8 @@ body li {
   width: 36px;
   text-align: center;
   cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .search__button:hover {
@@ -152,6 +156,13 @@ body li {
   width: 32px;
   height: 29px;
   color: #222222;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.cart:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .my-account {
@@ -159,6 +170,8 @@ body li {
   height: 38px;
   background-color: #f16d7f;
   margin-left: 26px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .my-account:hover {
@@ -212,10 +225,12 @@ body li {
 
 .top-nav > .menu-list .menu-link {
   text-transform: uppercase;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .top-nav > .menu-list .menu-link:hover {
-  border-bottom: 1px solid #212121;
+  color: #898989;
 }
 
 .top-nav > .menu-list .menu-item {
@@ -420,6 +435,8 @@ body li {
 .products-content__clothes {
   width: 263px;
   height: 364px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .products-content__clothes:hover {
@@ -473,6 +490,8 @@ body li {
   color: #ffffff;
   border: none;
   margin-top: 70px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .products-button__link:hover {
@@ -684,6 +703,13 @@ body li {
   display: inline-block;
   background-color: #d6d6d6;
   margin-right: 13px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.quotation__pages .quotation__page:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
 }
 
 .quotation__pages .quotation__active {
@@ -762,6 +788,8 @@ body li {
   font-weight: 400;
   letter-spacing: 0.025em;
   color: #ffffff;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .subscribtion .email button:hover {
@@ -826,6 +854,8 @@ body li {
   font-weight: 400;
   letter-spacing: 0.025em;
   color: #898989;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .structure .information ul {
@@ -846,6 +876,8 @@ body li {
   font-weight: 400;
   letter-spacing: 0.025em;
   color: #898989;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .structure .shop-category ul {
@@ -866,6 +898,8 @@ body li {
   font-weight: 400;
   letter-spacing: 0.025em;
   color: #898989;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .company > .company-list .company-link:hover {
@@ -925,6 +959,8 @@ body li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .icons a:last-child {
@@ -937,14 +973,20 @@ body li {
 
 .icons a:hover {
   background-color: #cdcdcc;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .icons a:hover i {
   color: #222222;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .icons a:active {
   background-color: #f16d7f;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
 }
 
 .icons a:active i {

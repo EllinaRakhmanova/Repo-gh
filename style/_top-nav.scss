@@ -14,11 +14,12 @@
 }
 
 .top-nav > .menu-list .menu-link {
-	text-transform: uppercase;	
+	text-transform: uppercase;
+	transition-duration: 0.4s;
 }
 
 .top-nav > .menu-list .menu-link:hover {
-	border-bottom: 1px solid #212121;	
+	color: #898989;	
 }
 
 .top-nav > .menu-list .menu-item {

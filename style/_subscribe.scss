@@ -74,6 +74,11 @@
             display: inline-block;
             background-color: #d6d6d6;
             margin-right: 13px;
+            transition-duration: 0.4s;
+
+            &:hover {
+                transform: scale(1.1, 1.1);
+            }
         }
 
         .quotation__active {
@@ -148,6 +153,7 @@
             font-weight: 400;
             letter-spacing: 0.025em;
             color: #ffffff;
+            transition-duration: 0.4s;
 
             &:hover {
                 background-color: #cdcdcc;

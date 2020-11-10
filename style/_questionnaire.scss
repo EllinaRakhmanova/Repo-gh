@@ -1,0 +1,198 @@
+.questionnaire {
+    padding-top: 80px;
+
+    h3 {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-top: 30px;
+        cursor: pointer;
+    }
+
+    &-line {
+        border-bottom: 1px solid #ececec;
+    }
+
+    &__block {
+        min-height: 75px;
+        position: relative;
+        transition-duration: 0.7s;
+
+        .shipping-adress__form {
+            padding-top: 35px;
+            padding-left: 25px;
+            display: flex;
+            height: 0px;
+            transition-duration: 0.9s;
+            opacity: 0;
+            position: absolute;
+            left: -1000px;
+
+            h4 {
+                font-size: 13px;
+                line-height: 1.2;
+                font-weight: 600;
+                text-transform: uppercase;
+                padding-bottom: 10px;
+            }
+
+            p {
+                font-size: 13px;
+                font-weight: 400;
+                color: #b3b2b2;
+            }
+
+            .shipping-adress__radio {
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+
+            label {
+                font-size: 12px;
+                line-height: 1.2;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+
+            input {
+                display: inline-block;
+            }
+
+            .shipping-adress__text {
+                display: flex;
+
+                i {
+                    color: #b3b2b2;
+                }
+            }
+
+            button {
+                width: 180px;
+                height: 50px;
+                background-color: #ffffff;
+                border: 1px solid #eaeaea;
+                font-size: 14px;
+                line-height: 1.2;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #4a4a4a;
+                margin-top: 38px;
+                transition-duration: 0.4s;
+
+                &:hover {
+                    box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.15);
+                }
+            }
+
+            .shipping-adress__log-in-block {
+                padding-left: 300px;
+
+                form {
+                    height: 290px;
+                    padding-top: 25px;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                span {
+                    font-size: 13px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    color: #ff0d0d;
+                }
+
+                label {
+                    font-size: 12px;
+                    line-height: 20px;
+                    font-weight: 600;
+                }
+
+                input {
+                    padding-left: 10px;
+                    width: 390px;
+                    height: 45px;
+                    background-color: #ffffff;
+                    border: 1px solid #eaeaea;
+                }
+
+                .shipping-adress__button {
+
+                    input {
+                        width: 180px;
+                        height: 50px;
+                        background-color: #ffffff;
+                        border: 1px solid #eaeaea;
+                        font-size: 14px;
+                        line-height: 1.2;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        color: #4a4a4a;
+                        transition-duration: 0.4s;
+
+                        &:hover {
+                            box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.15);
+                        }
+                    }
+
+                    a {
+                        font-size: 14px;
+                        line-height: 20px;
+                        font-weight: 400;
+                        padding-left: 32px;
+                        transition-duration: 0.4s;
+
+                        &:hover {
+                            color: #a4a4a4;
+                        }
+                    }
+                }
+            }
+        }
+
+        .billing-information__form {
+            height: 0px;
+            background-color: #f8f7bb;
+            transition-duration: 0.7s;
+        }
+
+        .shipping-information__form {
+            height: 0px;
+            background-color: #97f794;
+            transition-duration: 0.7s;
+        }
+
+        .shipping-method__form {
+            height: 0px;
+            background-color: #95f7de;
+            transition-duration: 0.7s;
+        }
+
+        .payment-method__form {
+            height: 0px;
+            background-color: #bf88fd;
+            transition-duration: 0.7s;
+        }
+
+        .order-review__form {
+            height: 0px;
+            background-color: #ef6ff3;
+            transition-duration: 0.7s;
+        }
+
+        input {
+            display: none;
+        }
+
+        input:checked ~ div {
+            height: 100px;
+            opacity: 1;
+            position: relative;
+            left: 0px;
+        }
+
+        input:checked ~ .shipping-adress__form {
+            height: 425px;
+        }
+    }
+}

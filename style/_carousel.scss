@@ -19,17 +19,19 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        transition-duration: 0.4s;
 
         i {
             color: #ffffff;
             font-size: 24px;
+            transition-duration: 0.4s;
         }
 
         &:hover {
-            background-color: rgba(182, 126, 126, 0.678);
+            transform: scale(1.2, 1.2);
 
             i {
-               color: #07090a; 
+                transform: scale(1.2, 1.2);
             } 
         }
     }

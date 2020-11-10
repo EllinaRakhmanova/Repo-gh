@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>Brand checkout</title>
+	<link rel="stylesheet" href="style/styles_checkout.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/6d87390322.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header container">
+		<a href="index.html" class="logo">
+			<img src="img/logo.png" alt="logo" class="logo__img">
+			<div class="logo__name">Bran<span>d</span></div>
+		</a>
+		<form class="search" method="get">
+			<div class="search__browse">Browse <i class="fas fa-caret-down search__fa-caret-down"></i></div>
+			<input type="text" class="search__input" placeholder="Search for Item..." name="search">
+			<button class="search__button"><i class="fas fa-search"></i></button>
+		</form>
+		<a href="#" class="cart"><img src="img/cart.png" alt="cart"></a>
+		<div class="my-account"><a href="#">My Account <i class="fas fa-caret-down my-account__fa-caret-down"></i></a></div>
+	</header>
+	<div class="header-line"></div>
+	<nav class="top-nav">
+		<ul class="menu-list">
+			<li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+			<li class="menu-item"><a href="#" class="menu-link">Man</a></li>
+			<li class="menu-item"><a href="#" class="menu-link">Women</a></li>
+			<li class="menu-item"><a href="#" class="menu-link">Kids</a></li>
+			<li class="menu-item"><a href="#" class="menu-link">Accosseriese</a></li>
+			<li class="menu-item"><a href="#" class="menu-link">Featured</a></li>
+			<li class="menu-item"><a href="#" class="menu-link">Hot Deals</a></li>
+		</ul>                                                       
+    </nav>
+    <div class="new-arrivals">
+        <div class="new-arrivals-slider container">
+            <h1 class="new-arrivals-slider__text">New Arrivals</h1>
+            <nav class="new-arrivals-slider__nav">
+                <a href="#" class="new-arrivals-slider__link">Home /</a>
+                <a href="#" class="new-arrivals-slider__link">Women /</a>
+                <a href="#" class="new-arrivals-slider__active"> New Arrivals</a> 
+            </nav>
+        </div>
+    </div>
+    <div class="questionnaire container">
+        <div class="questionnaire__block">
+            <input type="checkbox" id="shipping-adress" checked>
+            <label for="shipping-adress"><h3>01. Shipping adress</h3></label>
+            <div class="shipping-adress__form">
+                <div class="shipping-adress__radio-block">
+                    <h4>Check as a guest or register</h4>
+                    <p>Register with us for future convenience</p>
+                    <form method="GET" class="shipping-adress__radio">
+                        <input type="radio" id="guest" name="check" value="guest">
+                        <label for="guest">Checkout as guest</label><br><br>
+                        <input type="radio" id="register" name="check" value="register">
+                        <label for="register">Register</label>
+                    </form>
+                    <h4>Register and save time!</h4>
+                    <p>Register with us for future convenience</p>
+                    <br>
+                    <div class="shipping-adress__text">
+                        <i class="fas fa-angle-double-right"></i><p>Fast and easy checkout</p>
+                    </div>
+                    <br>
+                    <div class="shipping-adress__text">
+                        <i class="fas fa-angle-double-right"></i><p>Easy access to your order history and status</p>
+                    </div>
+                    <button class="shipping-adress__button">Continue</button>
+                </div>
+                <div class="shipping-adress__log-in-block">
+                    <h4>Already registed?</h4>
+                    <p>Please log in below</p>
+                    <form metod="GET" class="shipping-adress__log-in">
+                        <label for="email">Email adress<span>*</span></label><br>
+                        <input type="email" name="email" id="email"><br>
+                        <label for="password">Password<span>*</span></label><br>
+                        <input type="password" name="password" id="password"><br>
+                        <span>* Required Fileds</span><br>
+                        <div class="shipping-adress__button"><input type="submit" value="Log in"><a href="#">Forgot Password ?</a></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="questionnaire-line"></div>
+        <div class="questionnaire__block">
+            <input type="checkbox" id="billing-information">
+            <label for="billing-information"><h3>02. Billing information</h3></label>
+            <div class="billing-information__form"></div>
+        </div>
+        <div class="questionnaire-line"></div>
+        <div class="questionnaire__block">
+            <input type="checkbox" id="shipping-information">
+            <label for="shipping-information"><h3>03. Shipping information</h3></label>
+            <div class="shipping-information__form"></div>
+        </div>
+        <div class="questionnaire-line"></div>
+        <div class="questionnaire__block">
+            <input type="checkbox" id="shipping-method">
+            <label for="shipping-method"><h3>04. Shipping method</h3></label>
+            <div class="shipping-method__form"></div>
+        </div>
+        <div class="questionnaire-line"></div>
+        <div class="questionnaire__block">
+            <input type="checkbox" id="payment-method">
+            <label for="payment-method"><h3>05. Payment method</h3></label>
+            <div class="payment-method__form"></div>
+        </div>
+        <div class="questionnaire-line"></div>
+        <div class="questionnaire__block">
+            <input type="checkbox" id="order-review">
+            <label for="order-review"><h3>06. Order review</h3></label>
+            <div class="order-review__form"></div>
+        </div>
+        <div class="questionnaire-line"></div>
+    </div>
+    <div class="subscribe-slider">
+		<div class="subscribe-slider-bkg"></div>
+		<div class="subscribe-box container">
+			<div class="quotation">
+				<img src="img/fase.png" alt="fase" class="quotation__img">
+				<div class="quotation__text">
+					<p class="quotation__italics">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+					<p class="quotation__name"><span>Bin Burhan</span><br>Dhaka, Bd</p>
+					<div class="quotation__pages">
+						<a href="#" class="quotation__page"></a>
+						<a href="#" class="quotation__active"></a>
+						<a href="#" class="quotation__page"></a>
+					</div>
+				</div>
+			</div>
+			<div class="subscribtion">
+				<div class="subscribtion__text">
+					<h3>Subscribe</h3>
+					<h4>FOR OUR NEWLETTER AND PROMOTION</h4>
+				</div>
+				<form class="email" method="get">
+					<input type="text" class="subscribtion__input" placeholder="Enter Your Email" name="subscribtion">
+					<button class="subscribtion__button">Subscribe</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="about-company container">
+			<div class="logo-copy">
+				<a href="index.html" class="logo">
+					<img src="img/logo.png" alt="logo" class="logo__img">
+					<div class="logo__name">Bran<span>d</span></div>
+				</a>
+				<P>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. <br>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</P>
+			</div>
+			<div class="structure">
+				<div class="company">
+					<h3>Company</h3>
+					<ul class="company-list">
+						<li class="company-item"><a href="#" class="company-link">Home</a></li>
+						<li class="company-item"><a href="#" class="company-link">Shop</a></li>
+						<li class="company-item"><a href="#" class="company-link">About</a></li>
+						<li class="company-item"><a href="#" class="company-link">How It Works</a></li>
+						<li class="company-item"><a href="#" class="company-link">Contact</a></li>
+					</ul>
+				</div>
+				<div class="information">
+					<h3>Information</h3>
+					<ul class="information-list">
+						<li class="information-item"><a href="#" class="information-link">Tearms & Condition</a></li>
+						<li class="information-item"><a href="#" class="information-link">Privacy Policy</a></li>
+						<li class="information-item"><a href="#" class="information-link">How to Buy</a></li>
+						<li class="information-item"><a href="#" class="information-link">How to Sell</a></li>
+						<li class="information-item"><a href="#" class="information-link">Promotion</a></li>
+					</ul>
+				</div>
+				<div class="shop-category">
+					<h3>Shop Category</h3>
+					<ul class="shop-category-list">
+						<li class="shop-category-item"><a href="#" class="shop-category-link">Men</a></li>
+						<li class="shop-category-item"><a href="#" class="shop-category-link">Women</a></li>
+						<li class="shop-category-item"><a href="#" class="shop-category-link">Child</a></li>
+						<li class="shop-category-item"><a href="#" class="shop-category-link">Apparel</a></li>
+						<li class="shop-category-item"><a href="#" class="shop-category-link">Brows All</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="copyright-box container">
+				<p>© 2017  Brand  All Rights Reserved.</p>
+				<div class="icons">
+					<a href="#" class="icons-link"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="icons-link"><i class="fab fa-twitter"></i></a>
+					<a href="#" class="icons-link"><i class="fab fa-linkedin-in"></i></a>
+					<a href="#" class="icons-link"><i class="fab fa-pinterest-p"></i></a>
+					<a href="#" class="icons-link"><i class="fab fa-google-plus-g"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
