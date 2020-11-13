@@ -1,0 +1,31 @@
+.man-product {
+    display: flex;
+
+    .man-product-nav {
+        width: 250px;
+
+        .man-product-nav__block {
+
+            .man-product-nav__menu {
+                height: 0px;
+                opacity: 0;
+                transition-duration: 0.4s;
+                background-color: hotpink;
+            }
+
+            input {
+                display: none;
+            }
+
+            input:checked ~ div {
+                height: 200px;
+                opacity: 1;
+            }
+            
+            label {
+                height: 73px;
+                width: 243px;
+            } 
+        }
+    }
+}

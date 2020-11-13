@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>Brand product</title>
+	<link rel="stylesheet" href="style/styles_product.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/6d87390322.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header container">
+		<a href="index.html" class="logo">
+			<img src="img/logo.png" alt="logo" class="logo__img">
+			<div class="logo__name">Bran<span>d</span></div>
+		</a>
+		<form class="search" method="get">
+			<div class="search__browse">Browse <i class="fas fa-caret-down search__fa-caret-down"></i></div>
+			<input type="text" class="search__input" placeholder="Search for Item..." name="search">
+			<button class="search__button"><i class="fas fa-search"></i></button>
+		</form>
+		<a href="shopping.html" class="cart"><img src="img/cart.png" alt="cart"></a>
+		<div class="my-account"><a href="#">My Account <i class="fas fa-caret-down my-account__fa-caret-down"></i></a></div>
+	</header>
+	<div class="header-line"></div>
+	<nav class="top-nav">
+		<ul class="menu-list">
+			<li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+			<li class="menu-item"><a href="#" class="menu-link">Man</a></li>
+			<li class="menu-item"><a href="#" class="menu-link">Women</a></li>
+			<li class="menu-item"><a href="#" class="menu-link">Kids</a></li>
+			<li class="menu-item"><a href="#" class="menu-link">Accosseriese</a></li>
+			<li class="menu-item"><a href="#" class="menu-link">Featured</a></li>
+			<li class="menu-item"><a href="#" class="menu-link">Hot Deals</a></li>
+		</ul>                                                       
+    </nav>
+    <div class="new-arrivals">
+        <div class="new-arrivals-slider container">
+            <h1 class="new-arrivals-slider__text">New Arrivals</h1>
+            <nav class="new-arrivals-slider__nav">
+                <a href="#" class="new-arrivals-slider__link">Home /</a>
+                <a href="#" class="new-arrivals-slider__link">Women /</a>
+                <a href="#" class="new-arrivals-slider__active"> New Arrivals</a> 
+            </nav>
+        </div>
+    </div>
+    <div class="man-product container">
+        <div class="man-product-nav">
+			<div class="man-product-nav__block">
+				<input type="checkbox" id="man-product-nav__category" checked>
+				<label for="man-product-nav__category"><h3>Category</h3></label>
+				<div class="man-product-nav__menu">
+					<ul class="man-product-nav__list">
+						<li><a class="man-product-nav__link" href="#">Accessories</a></li>
+						<li><a class="man-product-nav__link" href="#">Bags</a></li>
+						<li><a class="man-product-nav__link" href="#">Denim</a></li>
+						<li><a class="man-product-nav__link" href="#">Hoodies & Sweatshirts</a></li>
+						<li><a class="man-product-nav__link" href="#">Jackets & Coats</a></li>
+						<li><a class="man-product-nav__link" href="#">Pants</a></li>
+						<li><a class="man-product-nav__link" href="#">Polos</a></li>
+						<li><a class="man-product-nav__link" href="#">Shirts</a></li>
+						<li><a class="man-product-nav__link" href="#">Shoes</a></li>
+						<li><a class="man-product-nav__link" href="#">Shorts</a></li>
+						<li><a class="man-product-nav__link" href="#">Sweaters & Knits</a></li>
+						<li><a class="man-product-nav__link" href="#">T-Shirts</a></li>
+						<li><a class="man-product-nav__link" href="#">Tanks</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="man-product-nav__block">
+				<input type="checkbox" id="man-product-nav__brand">
+				<label for="man-product-nav__brand"><h3>Brand</h3></label>
+				<div class="man-product-nav__menu"></div>
+			</div>
+			<div class="man-product-nav__block">
+				<input type="checkbox" id="man-product-nav__designer">
+				<label for="man-product-nav__designer"><h3>Designer</h3></label>
+				<div class="man-product-nav__menu"></div>
+			</div>
+		</div>
+        <div class="man-products">
+			<div class="filters-block">
+				<div class="filters-trending">
+					<h3>Trending now</h3>
+					<div class="filters-trending__list">
+						<a href="" class="filters-trending__link">Bohemian</a>
+						<a href="" class="filters-trending__link">Floral</a>
+						<a href="" class="filters-trending__link">Lace</a>
+						<a href="" class="filters-trending__link">Floral</a>
+						<a href="" class="filters-trending__link">Lace</a>
+						<a href="" class="filters-trending__link">Bohemian</a>
+					</div>
+				</div>
+				<div class="filters-size">
+					<h3>Size</h3>
+					<form method="GET">
+						<div class="filters-size__checkbox">
+							<input type="checkbox" id="xxs">
+            				<label for="xxs">XXS</label>
+						</div>
+						<div class="filters-size__checkbox">
+							<input type="checkbox" id="xs">
+            				<label for="xs">XS</label>
+						</div>
+						<div class="filters-size__checkbox">
+							<input type="checkbox" id="s">
+            				<label for="s">S</label>
+						</div>
+						<div class="filters-size__checkbox">
+							<input type="checkbox" id="m">
+            				<label for="m">M</label>
+						</div>
+						<div class="filters-size__checkbox">
+							<input type="checkbox" id="l">
+            				<label for="l">L</label>
+						</div>
+						<div class="filters-size__checkbox">
+							<input type="checkbox" id="xl">
+            				<label for="xl">XL</label>
+						</div>
+						<div class="filters-size__checkbox">
+							<input type="checkbox" id="xxl">
+            				<label for="xxl">XXL</label>
+						</div>
+					</form>
+				</div>
+				<div class="filters-price">
+					<h3>Price</h3>
+					<input type="range" min="0" max="1000">
+					<div class="filters-price__value">
+						<p>52$</p>
+						<p>400$</p>
+					</div>
+				</div>
+			</div>
+			<div class="show-block">
+				<div class="sort-by">
+					<label for="sort">Sort by</label>
+					<select name="sort" id="sort">
+						<option value="name">Name</option>
+						<option value="cheap">Cheap</option>
+						<option value="expensive">Expensive</option>
+					</select>
+				</div>
+			</div>
+			<div class="page-block">
+				<div class="page-product">
+					<div class="page-product__hover"><a class="page-product__link" href="#"></a></div>
+					<img src="" alt="t-shirt">
+					<div class="page-product__text">
+						<p>Mango  People  T-shirt</p>
+						<span>52$</span>
+					</div>
+				</div>
+			</div>
+			<div class="pagination-block">
+				<div class="pagination-list">
+					<a href="#" class="pagination-list__link"><</a>
+					<a href="#" class="pagination-list__link">1</a>
+					<a href="#" class="pagination-list__link">2</a>
+					<a href="#" class="pagination-list__link">3</a>
+					<a href="#" class="pagination-list__link">4</a>
+					<a href="#" class="pagination-list__link">5</a>
+					<a href="#" class="pagination-list__link">6....20</a>
+					<a href="#" class="pagination-list__link">></a>
+				</div>
+				<button class="pagination-button">View All</button>
+			</div>
+        </div>
+    </div>
+</body>
