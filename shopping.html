@@ -65,7 +65,7 @@
 			</div>
 			<div class="details">
 				<div class="prise">$150</div>
-				<div class="quantity"><input type="number" id="quantity" name="quantity" pattern="^[ 0-9]+$"></div>
+				<div class="quantity"><input type="number"></div>
 				<div class="shipping">Free</div>
 				<div class="subtotal">$300</div>
 				<a href="#" class="action"><i class="fas fa-times-circle"></i></a>
@@ -82,7 +82,7 @@
 			</div>
 			<div class="details">
 				<div class="prise">$150</div>
-				<div class="quantity"><input type="number" id="quantity" name="quantity" pattern="^[ 0-9]+$"></div>
+				<div class="quantity"><input type="number"></div>
 				<div class="shipping">Free</div>
 				<div class="subtotal">$300</div>
 				<a href="#" class="action"><i class="fas fa-times-circle"></i></a>
@@ -99,7 +99,7 @@
 			</div>
 			<div class="details">
 				<div class="prise">$150</div>
-				<div class="quantity"><input type="number" id="quantity" name="quantity" pattern="^[ 0-9]+$"></div>
+				<div class="quantity"><input type="number" id="quantity"></div>
 				<div class="shipping">Free</div>
 				<div class="subtotal">$300</div>
 				<a href="#" class="action"><i class="fas fa-times-circle"></i></a>
@@ -112,17 +112,17 @@
 		</div>
 	</main>
 	<div class="cart-forms container">
-		<form action="" method="get" class="shopping-adress">
+		<form class="shopping-adress">
 			<h2>Shopping Adress</h2>
 			<input type="text" id="country" name="country" class="shopping-adress__country" placeholder="Bangladesh" pattern="^[a-zA-Z]+$">
 			<input type="text" id="city" name="city" class="shopping-adress__city" placeholder="Dhaka" pattern="^[a-zA-Z]+$">
 			<input type="tel" id="postcode" name="postcode" class="shopping-adress__postcode" placeholder="178179" pattern="[0-9]{6}">
 			<input type="submit" value="get a quote" class="shopping-adress__submit">
 		</form>
-		<form action="" method="get" class="coupon-discount">
+		<form class="coupon-discount">
 			<h2>Coupon Discount</h2>
-			<label for="coupon">Enter your coupon code if you have one</label>
-			<input type="text" id="city" name="city" class="coupon-discount__city" placeholder="Dhaka" pattern="^[a-zA-Z]+$">
+			<label>Enter your coupon code if you have one</label>
+			<input type="text" id="city-coupon-discount" name="city-coupon-discount" class="coupon-discount__city" placeholder="Dhaka" pattern="^[a-zA-Z]+$">
 			<input type="submit" class="coupon-discount__submit" value="apply coupon">
 		</form>
 		<div class="grand-total">
@@ -153,7 +153,7 @@
 					<h3>Subscribe</h3>
 					<h4>FOR OUR NEWLETTER AND PROMOTION</h4>
 				</div>
-				<form class="email" method="get">
+				<form class="email">
 					<input type="text" class="subscribtion__input" placeholder="Enter Your Email" name="subscribtion">
 					<button class="subscribtion__button">Subscribe</button>
 				</form>

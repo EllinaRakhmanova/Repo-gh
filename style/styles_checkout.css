@@ -289,6 +289,14 @@ body li {
   padding-top: 80px;
 }
 
+.questionnaire label {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
 .questionnaire h3 {
   font-size: 16px;
   line-height: 1.2;
@@ -300,10 +308,15 @@ body li {
 
 .questionnaire-line {
   border-bottom: 1px solid #ececec;
+  margin-bottom: 30px;
+}
+
+.questionnaire-line:last-child {
+  margin-bottom: 0px;
 }
 
 .questionnaire__block {
-  min-height: 75px;
+  min-height: 45px;
   position: relative;
   -webkit-transition-duration: 0.7s;
           transition-duration: 0.7s;

@@ -1,6 +1,14 @@
 .questionnaire {
     padding-top: 80px;
 
+    label {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
     h3 {
         font-size: 16px;
         line-height: 1.2;
@@ -12,10 +20,15 @@
 
     &-line {
         border-bottom: 1px solid #ececec;
+        margin-bottom: 30px;
+    }
+
+    &-line:last-child {
+        margin-bottom: 0px;
     }
 
     &__block {
-        min-height: 75px;
+        min-height: 45px;
         position: relative;
         transition-duration: 0.7s;
 
