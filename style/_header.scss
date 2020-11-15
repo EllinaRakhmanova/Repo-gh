@@ -20,7 +20,7 @@
 
         &__name span {
         font-weight: 900;
-        color: #f16d7f;
+        color: $main-color;
 	}
 }
 
@@ -55,7 +55,7 @@
 
 	&:hover {
 		cursor: pointer;
-		background-color: #cdcdcc;
+		background-color: $hover-color;
 	}
 }
 
@@ -99,7 +99,7 @@
 }
 
 .search__button:hover {
-	background-color: #cdcdcc;
+	background-color: $hover-color;
 }
 
 .fa-search {
@@ -112,10 +112,10 @@
 }
 
 .cart {
-	margin-left: 349px;
+	margin-left: auto;
 	width: 32px;
 	height: 29px;
-	color: #222222;
+	color: $font-color;
 	transition-duration: 0.4s;
 
 	&:hover {
@@ -126,13 +126,13 @@
 .my-account {
 	width: 130px;
 	height: 38px;
-	background-color: #f16d7f;
+	background-color: $main-color;
 	margin-left: 26px;
 	transition-duration: 0.4s;
 }
 
 .my-account:hover {
-	background-color: #cdcdcc;
+	background-color: $hover-color;
 }
 
 .my-account a {
