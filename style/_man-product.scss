@@ -43,7 +43,7 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                border-left: 5px solid #ef5b70;
+                border-left: 5px solid $main-color;
                 border-bottom: 1px solid #ebebeb;
                 margin-bottom: 18px;
             }
@@ -171,7 +171,7 @@
                 line-height: 26px;
                 font-weight: 400;
                 color: #6f6e6e;
-                background-color: #ffffff;
+                background-color: $white-color;
                 border: 1px solid #ebebeb;
                 display: flex;
                 justify-content: space-around;
@@ -182,7 +182,7 @@
             select {
                 width: 85px;
                 height: 30px;
-                background-color: #ffffff;
+                background-color: $white-color;
                 border: 1px solid #ebebeb;
                 padding-left: 5px;
             }
@@ -198,7 +198,7 @@
                 line-height: 26px;
                 font-weight: 400;
                 color: #6f6e6e;
-                background-color: #ffffff;
+                background-color: $white-color;
                 border: 1px solid #ebebeb;
                 display: flex;
                 justify-content: space-around;
@@ -209,7 +209,7 @@
             select {
                 width: 63px;
                 height: 30px;
-                background-color: #ffffff;
+                background-color: $white-color;
                 border: 1px solid #ebebeb;
                 padding-left: 5px;
             }
@@ -252,7 +252,7 @@
                 a:first-child {
                     width: 123px;
                     height: 39px;
-                    border: 1px solid #ffffff;
+                    border: 1px solid $white-color;
                     border-radius: 3px;
                     display: flex;
                     justify-content: center;
@@ -260,7 +260,7 @@
                     font-size: 13px;
                     line-height: 1.2;
                     font-weight: 700;
-                    color: #ffffff;
+                    color: $white-color;
 
                     .page-product__cart {
                         width: 23px;
@@ -272,7 +272,7 @@
                 a:nth-child(2) {
                     width: 57px;
                     height: 38px;
-                    border: 1px solid #ffffff;
+                    border: 1px solid $white-color;
                     border-radius: 3px;
                     display: flex;
                     justify-content: center;
@@ -287,7 +287,7 @@
                 a:nth-child(3) {
                     width: 57px;
                     height: 38px;
-                    border: 1px solid #ffffff;
+                    border: 1px solid $white-color;
                     border-radius: 3px;
                     display: flex;
                     justify-content: center;
@@ -326,12 +326,12 @@
                     line-height: 1.2;
                     font-weight: 700;
                     text-transform: uppercase;
-                    color: #f16d7f;
+                    color: $main-color;
                 }
             }
 
             &:hover {
-                box-shadow: 0px 5px 8px 0px rgba(49, 49, 49, 0.15);
+                box-shadow: $shadow-black-color;
     
                 .page-product__hover {
                     opacity: 1;
@@ -347,7 +347,7 @@
         .pagination-list {
             width: 261px;
             height: 44px;
-            background-color: #ffffff;
+            background-color: $white-color;
             border: 1px solid #ebebeb;
             border-radius: 3px;
             display: flex;
@@ -363,29 +363,29 @@
                 transition-duration: 0.4s;
 
                 &:hover {
-                    color: #ef5b70;
+                    color: $main-color;
                 }
             }
 
             a:nth-child(2) {
-                color: #ef5b70;
+                color: $main-color;
             }
         }
 
         .pagination-button {
             width: 150px;
             height: 44px;
-            background-color: #ffffff;
-            border: 1px solid #ef5b70;
+            background-color: $white-color;
+            border: 1px solid $main-color;
             border-radius: 3px;
             font-size: 16px;
             line-height: 26px;
             font-weight: 300;
-            color: #ef5b70;
+            color: $main-color;
             text-decoration: 0.4s;
 
             &:hover {
-                box-shadow: 0px 5px 8px 0px rgba(247, 143, 143, 0.781);
+                box-shadow: $shadow-pink-color;
             }
         }
     }

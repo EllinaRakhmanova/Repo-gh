@@ -19,7 +19,7 @@
         width: 500px;
         height: 93px;
         text-transform: uppercase;
-        border-left: 12px solid #f16d7f;
+        border-left: 12px solid $main-color;
     }
 
         &__name {
@@ -42,5 +42,5 @@
 
 .slider-brand__text span {
 	font-size: 40px;
-	color: #f16d7f;
+	color: $main-color;
 }

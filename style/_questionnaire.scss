@@ -83,7 +83,7 @@
             button {
                 width: 180px;
                 height: 50px;
-                background-color: #ffffff;
+                background-color: $white-color;
                 border: 1px solid #eaeaea;
                 font-size: 14px;
                 line-height: 1.2;
@@ -94,7 +94,7 @@
                 transition-duration: 0.4s;
 
                 &:hover {
-                    box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.15);
+                    box-shadow: $shadow-black-color;
                 }
             }
 
@@ -125,7 +125,7 @@
                     padding-left: 10px;
                     width: 390px;
                     height: 45px;
-                    background-color: #ffffff;
+                    background-color: $white-color;
                     border: 1px solid #eaeaea;
                 }
 
@@ -134,7 +134,7 @@
                     input {
                         width: 180px;
                         height: 50px;
-                        background-color: #ffffff;
+                        background-color: $white-color;
                         border: 1px solid #eaeaea;
                         font-size: 14px;
                         line-height: 1.2;
@@ -144,7 +144,7 @@
                         transition-duration: 0.4s;
 
                         &:hover {
-                            box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.15);
+                            box-shadow: $shadow-black-color;
                         }
                     }
 

@@ -39,7 +39,7 @@
             line-height: 30px;
             font-weight: 700;
             letter-spacing: 0.025em;
-            color: #f16d7f;
+            color: $main-color;
         }
 
         a {
@@ -63,7 +63,7 @@
             line-height: 30px;
             font-weight: 700;
             letter-spacing: 0.025em;
-            color: #f16d7f;
+            color: $main-color;
         }
 
         a {
@@ -87,7 +87,7 @@
             line-height: 30px;
             font-weight: 700;
             letter-spacing: 0.025em;
-            color: #f16d7f;
+            color: $main-color;
         }
 
         a {
@@ -102,15 +102,15 @@
 }
 
 .company > .company-list .company-link:hover {
-    color: #222222;
+    color: $font-color;
 }
 
 .information > .information-list .information-link:hover {
-    color: #222222;
+    color: $font-color;
 }
 
 .shop-category > .shop-category-list .shop-category-link:hover {
-    color: #222222;
+    color: $font-color;
 } 
 
 .copyright {
@@ -139,7 +139,7 @@
     a {
         width: 32px;
         height: 32px;
-        background-color: #ffffff;
+        background-color: $white-color;
         display: inline-block;
         margin-right: 8px;
         display: flex;
@@ -156,17 +156,17 @@
         }
 
         &:hover {
-            background-color: #cdcdcc;
+            background-color: $hover-color;
             transform: scale(1.2, 1.2);
 
             i {
-                color: #222222;
+                color: $font-color;
                 transition-duration: 0.4s;
             }
         }
 
         &:active {
-            background-color: #f16d7f;
+            background-color: $main-color;
             transform: scale(1, 1);
 
             i {

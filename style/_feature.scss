@@ -30,10 +30,10 @@
             line-height: 1.2;
             font-weight: 700;
             letter-spacing: 0.025em;
-            color: #ffffff;
+            color: $white-color;
 
             span {
-                color: #f16d7f;
+                color: $main-color;
             }
         }
 
@@ -42,7 +42,7 @@
             line-height: 1.2;
             font-weight: 700;
             letter-spacing: 0.025em;
-            color: #ffffff;
+            color: $main-color;
         }
     }
 }

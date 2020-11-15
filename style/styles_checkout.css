@@ -130,7 +130,7 @@ body li {
   outline: none;
   overflow: hidden;
   border: none;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 36px;
   text-align: center;
   cursor: pointer;
@@ -526,6 +526,7 @@ body li {
 
 .subscribe-slider-bkg {
   background-image: url(../img/slider_10.png);
+  background-size: cover;
   width: 100%;
   height: 438px;
   position: absolute;
@@ -618,7 +619,7 @@ body li {
 .subscribtion {
   min-height: 438px;
   width: 570px;
-  border-left: 2px solid white;
+  border-left: 2px solid #ffffff;
   text-align: center;
 }
 

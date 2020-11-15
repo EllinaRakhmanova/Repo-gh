@@ -37,11 +37,11 @@
             a {
                 width: 123px;
                 height: 39px;
-                border: 2px solid #ffffff;
+                border: 2px solid $white-color;
                 font-size: 13px;
                 line-height: 1.2;
                 font-weight: 700;
-                color: #ffffff;
+                color: $white-color;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -83,13 +83,13 @@
                 line-height: 1.2;
                 font-weight: 700;
                 text-transform: uppercase;
-                color: #f16d7f;
+                color: $main-color;
                 padding-top: 15px;
             }
         }
 
         &:hover {
-            box-shadow: 0px 5px 8px 0px rgba(49, 49, 49, 0.15);
+            box-shadow: $shadow-black-color;
 
             .may-like__hover {
                 opacity: 1;

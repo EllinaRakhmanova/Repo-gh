@@ -1,7 +1,7 @@
 .description {
 
     min-height: 730px;
-    background-color: #ffffff;
+    background-color: $white-color;
     border: 1px solid #eaeaea;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@
         font-size: 14px;
         line-height: 24px;
         font-weight: 700;
-        color: #f16d7f;
+        color: $main-color;
     }
 
     h2 {
@@ -82,8 +82,8 @@
         .description__link-active {
             width: 63px;
             height: 3px;
-            background-color: #ef5b70;
-            border: 1px solid #ef5b70;
+            background-color: $main-color;
+            border: 1px solid $main-color;
         }
     }
 
@@ -91,7 +91,7 @@
         font-size: 24px;
         line-height: 24px;
         font-weight: 700;
-        color: #ef5b70;
+        color: $main-color;
         padding-bottom: 40px;
     }
 
@@ -119,7 +119,7 @@
         select {
             width: 144px;
             height: 35px;
-            background-color: #ffffff;
+            background-color: $white-color;
             border: 1px solid #eaeaea;
             font-size: 13px;
             line-height: 24px;
@@ -133,12 +133,12 @@
     button {
         width: 537px;
         height: 55px;
-        background-color: #ffffff;
-        border: 1px solid #ef5b70;
+        background-color: $white-color;
+        border: 1px solid $main-color;
         font-size: 16px;
         line-height: 1.2;
         font-weight: 700;
-        color: #ef5b70;
+        color: $main-color;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -150,7 +150,7 @@
         }
 
         &:hover {
-            box-shadow: 0px 5px 8px 0px rgba(247, 143, 143, 0.781);
+            box-shadow: $shadow-pink-color;
 
         } 
     }

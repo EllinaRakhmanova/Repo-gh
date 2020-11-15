@@ -9,6 +9,7 @@
 
 .subscribe-slider-bkg {
     background-image: url(../img/slider_10.png);
+    background-size: cover;
     width: 100%;
     height: 438px;
     position: absolute;
@@ -60,7 +61,7 @@
             line-height: 26px;
             font-weight: 700;
             letter-spacing: 0.025em;
-            color: #f16d7f;
+            color: $main-color;
         }
     }
 
@@ -85,7 +86,7 @@
             height: 5px;
             width: 38px;
             display: inline-block;
-            background-color: #f16d7f;
+            background-color: $main-color;
             margin-right: 13px;
         }
     }
@@ -94,7 +95,7 @@
 .subscribtion {
     min-height: 438px;
     width: 570px;
-    border-left: 2px solid white;
+    border-left: 2px solid $white-color;
     text-align: center;
 
     &__text {
@@ -144,7 +145,7 @@
         button {
             height: inherit;
             width: 104px;
-            background-color: #f16d7f;
+            background-color: $main-color;
             border-radius: 0px 23px 23px 0px;
             outline: none;
             overflow: hidden;
@@ -152,11 +153,11 @@
             font-size: 14px;
             font-weight: 400;
             letter-spacing: 0.025em;
-            color: #ffffff;
+            color: $white-color;
             transition-duration: 0.4s;
 
             &:hover {
-                background-color: #cdcdcc;
+                background-color: $hover-color;
             }
         }
     }

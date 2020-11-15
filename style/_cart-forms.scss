@@ -66,7 +66,7 @@
 
     &__city {
         height: 45px;
-        background-color: #ffffff;
+        background-color: $white-color;
         border: 1px solid #eaeaea;
         padding-left: 15px;
     }
@@ -74,7 +74,7 @@
     &__submit {
         width: 118px;
         height: 35px;
-        background-color: #ffffff;
+        background-color: $white-color;
         border: 1px solid #eaeaea;
         font-size: 11px;
         line-height: 1.2;
@@ -120,7 +120,7 @@
             padding-top: 10px;
 
             span {
-                color: #f16d7f;
+                color: $main-color;
             }
         }
     }
@@ -128,17 +128,17 @@
     &__button {
         width: 273px;
         height: 50px;
-        background-color: #f16d7f;
+        background-color: $main-color;
         border: none;
         font-size: 16px;
         line-height: 1.2;
         font-weight: 700;
         text-transform: uppercase;
-        color: #ffffff;
+        color: $white-color;
         transition-duration: 0.4s;
 
         &:hover {
-            background-color: #cdcdcc;
+            background-color: $hover-color;
         }
     }
     
