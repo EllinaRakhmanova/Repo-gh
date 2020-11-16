@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: $font-color;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+
+    a {
+        text-decoration: none;
+        color: $font-color;
+    }
+
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+
+        @media (max-width: 1199.98px) {
+            .container {
+                width: 900px !important;
+            }
+        }
+    }
+
+    li {
+        list-style-type: none;
+    }
+}
